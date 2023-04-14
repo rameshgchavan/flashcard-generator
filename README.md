@@ -9,7 +9,7 @@
     3. Contents: contains 3 pages: inside src/pages
         - **CreateFlashcard**
         - **MyFlashcards** and
-        - **FlashcardDetails** inside src/pages folder
+        - **FlashcardDetails** 
 
 - To create new flashcards **CreateFlashcard** page contains 2 forms inside src/components/forms
     -  **MainFlashcardForm**: to create a group of terms and
