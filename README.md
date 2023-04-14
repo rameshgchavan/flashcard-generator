@@ -10,11 +10,10 @@
                I have created 3 pages named as **CreateFlashcard**, **MyFlashcards** and **FlashcardDetails** inside src/pages folder
 
 A. To create new flashcards **CreateFlashcard** page cantains 2 forms one for to create a group of terms and named as **MainFlashcardForm** and another for to create terms named as **TermForm** and at the end I have added a button named ad Create that will submit data to local storage. 
-
    a. MainFlashcardForm contains:
-        1. Create Group input field that is required
-        2. Image Upload button
-        3. Description input field
+    1. Create Group input field that is required
+    2. Image Upload button
+    3. Description input field
         
    b. TermForm contains:
         1. Label to show Serial number
