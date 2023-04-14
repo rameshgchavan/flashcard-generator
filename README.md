@@ -17,11 +17,11 @@ a. MainFlashcardForm contains:
    3. Description input field
 
 b. TermForm contains:
-1. Label to show Serial number
-2. Enter Term input field that is required
-3. Enter defination input filed that also is required
-4. Select Image button and
-5. + Add more button
+  1. Label to show Serial number
+  2. Enter Term input field that is required
+  3. Enter defination input filed that also is required
+  4. Select Image button and
+  5. + Add more button
         
    c. On cliking + Add more button **Terms** component get loaded inside TermForm. 
        Terms component contains:
