@@ -1,6 +1,6 @@
 # Flashcard Generator
 
-## My project is about to let user to create and see flashcards that he wants to plan his tasks, activities or routines.
+## My project is about to let user to create and see flashcards those he wants to plan his tasks, activities or routines.
 
 ### UI:
 - Project view is divided into 3 parts:
