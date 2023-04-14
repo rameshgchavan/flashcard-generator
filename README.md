@@ -6,12 +6,12 @@
 - Project view is divided into 3 parts:
     1. Header: contains Logo
     2. Navbar: Using react-router-dom package I have made 2 Links first link navigate to create new flashcards and second link navigate to show created flashcards.
-    3. Contents: contains 3 pages: 
+    3. Contents: contains 3 pages: inside src/pages
         - **CreateFlashcard**
         - **MyFlashcards** and
         - **FlashcardDetails** inside src/pages folder
 
-- To create new flashcards **CreateFlashcard** page cantains 2 forms
+- To create new flashcards **CreateFlashcard** page contains 2 forms inside src/components/forms
     -  **MainFlashcardForm**: to create a group of terms and
         - MainFlashcardForm contains:
             - Create Group input field that is required
@@ -27,7 +27,7 @@
     -  Create button: at the end I have added a button that will submit data to local storage.
   
 - On clicking + Add more button **Terms** component get loaded inside **TermForm**.
-    - **Terms** component contains:
+    - **Terms** component contains: inside src/components
         - Label to show Serial number
         - Enter Term input field that is required
         - Enter definition input filed that also is required
@@ -42,7 +42,7 @@
     - I have used react icons library to show icons inside button and input fields.   
         
 - To see created flashcards, **MyFlashcards** page will show initially 6 flashcards and a button named as See all. On clicking See all button all the created flashcards will be shown.
-- I have created **Flahscard** component that contains:
+- I have created **Flahscard** component that contains: inside src/components
     - img element to show flashcard's group image.
     - 3 paragraph elements those show name of flashcard group, number of terms and description respectively.
     - Using react-router-dom package I made a link to navigate **FlashcardDetails** page.
@@ -55,7 +55,7 @@
     - 3 buttons Share, Download and Print respectively.
     - I have made carousel using react icons as button element and paragraph element.
         - Either clicking on list of terms or by clicking carousel button term image and definition will be shown accordingly.
-        - On clicking print button a **ModalShare** modal get shown that contains:
+        - On clicking print button a **ModalShare** modal get shown that contains: inside src/components
             - react icons X as button to close modal.
             - Paragraph element that shows Share title.
             - 2 Label elements to show Link and url respectively.
@@ -82,7 +82,7 @@ In PageRoutes.js file by using react-router-dom and its component Routes, Route,
   - Link: https://www.npmjs.com/package/react-router-dom
   
 ### React Redux:
-- I have used react redux library for state managment and created 4 folders as:
+- I have used react redux library for state management and created 4 folders as:
     - **constants:** this folder contains index.js in this file I have created constants those will be used in action and reducer.
     - **actions:** this folder contains: 4 files as follows
         - createFlashcard.js: contains createFlashcard action, 
