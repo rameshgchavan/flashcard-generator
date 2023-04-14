@@ -72,7 +72,7 @@
 - I have used tailwind utility first CSS framework packed with classes to beautify UI .
 - Read more: https://tailwindcss.com/docs/installation
       
-### Routing: 
+### Routing: inside src/routes
 In PageRoutes.js file by using react-router-dom and its component Routes, Route, Outlet I have routed:
   1. **CreateFlashcard** page on route "/" and as default landing page.
   2. **MyFlashcards** page on route "/myflashcards".
@@ -81,7 +81,7 @@ In PageRoutes.js file by using react-router-dom and its component Routes, Route,
   - Read more: https://reactrouter.com/en/main/start/tutorial
   - Link: https://www.npmjs.com/package/react-router-dom
   
-### React Redux:
+### React Redux: inside src/state
 - I have used react redux library for state management and created 4 folders as:
     - **constants:** this folder contains index.js in this file I have created constants those will be used in action and reducer.
     - **actions:** this folder contains: 4 files as follows
