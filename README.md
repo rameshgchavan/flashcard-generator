@@ -4,7 +4,7 @@
 
 ### UI:
 - Project view is divided into 3 parts:
-    1. Header: conatains Logo
+    1. Header: contains Logo
     2. Navbar: Using react-router-dom package I have made 2 Links first link navigate to create new flashcards and second link navigate to show created flashcards.
     3. Contents: contains 3 pages: 
         - **CreateFlashcard**
@@ -21,27 +21,27 @@
         - TermForm contains:
             - Label to show Serial number
             - Enter Term input field that is required
-            - Enter defination input filed that also is required
+            - Enter definition input filed that also is required
             - Select Image button and
             - '+ Add more button
     -  Create button: at the end I have added a button that will submit data to local storage.
   
-- On cliking + Add more button **Terms** component get loaded inside **TermForm**.
+- On clicking + Add more button **Terms** component get loaded inside **TermForm**.
     - **Terms** component contains:
         - Label to show Serial number
         - Enter Term input field that is required
-        - Enter defination input filed that also is required
+        - Enter definition input filed that also is required
         - Image element and
         - Trash and Edit buttons:
             - Trash button will remove term component respectively and Edit button will focus in and put cursor inside Term input field.
            
 - Libraries/ Utilities/ Packages:
     - I have used formik library with help of yup:
-        - Formik component to Form validation of required input fields and FieldArray component to store Terms componet as array.
+        - Formik component to Form validation of required input fields and FieldArray component to store Terms component as array.
             - Link: https://formik.org/docs/overview
-    - I have used react icons library to show icons indside button and input fields.   
+    - I have used react icons library to show icons inside button and input fields.   
         
-- To see created flashcards, **MyFlashcards** page will show initailly 6 flashcards and a button named as See all. On clicking See all button all the created flashcards will be shown.
+- To see created flashcards, **MyFlashcards** page will show initially 6 flashcards and a button named as See all. On clicking See all button all the created flashcards will be shown.
 - I have created **Flahscard** component that contains:
     - img element to show flashcard's group image.
     - 3 paragraph elements those show name of flashcard group, number of terms and description respectively.
@@ -51,10 +51,10 @@
     - react icons that is used for to create a link to navigate **MyFlashcards** page and to show name of flashcard group.
     - a paragraph element to show flashcard group description.
     - ul element to show list of terms.
-    - img element to show term image and a div element to show term defination.
+    - img element to show term image and a div element to show term definition.
     - 3 buttons Share, Download and Print respectively.
     - I have made carousel using react icons as button element and paragraph element.
-        - Either clickig on list of terms or by clicking carousel button term image and defination will be shown accrodingly.
+        - Either clicking on list of terms or by clicking carousel button term image and definition will be shown accordingly.
         - On clicking print button a **ModalShare** modal get shown that contains:
             - react icons X as button to close modal.
             - Paragraph element that shows Share title.
@@ -82,7 +82,7 @@ In PageRoutes.js file by using react-router-dom and its component Routes, Route,
   - Link: https://www.npmjs.com/package/react-router-dom
   
 ### React Redux:
-- I have used react redux library for state managemenet and created 4 folders as:
+- I have used react redux library for state managment and created 4 folders as:
     - **constants:** this folder contains index.js in this file I have created constants those will be used in action and reducer.
     - **actions:** this folder contains: 4 files as follows
         - createFlashcard.js: contains createFlashcard action, 
@@ -109,7 +109,3 @@ In PageRoutes.js file by using react-router-dom and its component Routes, Route,
     - Email: ramesh7452@gmail.com.
 
 ### Thanks! AlmaBetter and team.
-      
-      
-
-
