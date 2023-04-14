@@ -15,6 +15,7 @@ a. MainFlashcardForm contains:
    1. Create Group input field that is required
    2. Image Upload button
    3. Description input field
+
 b. TermForm contains:
 1. Label to show Serial number
 2. Enter Term input field that is required
