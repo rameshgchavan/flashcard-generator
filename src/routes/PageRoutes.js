@@ -11,8 +11,8 @@ const PageRoutes = () => {
       <Routes>
         <Route path="/" element={<Outlet />} >
           <Route index element={<CreateFlashcard />} /> 
-          <Route path="myflashcards" element={<MyFlashcards />} />
-          <Route path="flashcarddetails/:groupName" element={<FlashcardDetails />} />
+          <Route path="/myflashcards" element={<MyFlashcards />} />
+          <Route path="/flashcarddetails/:groupName" element={<FlashcardDetails />} />
           <Route path="*" element={<CreateFlashcard />} />
         </Route>
       </Routes>
