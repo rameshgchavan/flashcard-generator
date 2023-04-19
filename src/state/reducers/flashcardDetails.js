@@ -8,7 +8,7 @@ const flashcardDetailsReducer = (state = initailState, action) => {
     switch (type) {
         case SET_FLASHCARD:
             const flashCards = data.find((flashcards) => {
-                return flashcards.groupName === groupName
+                return flashcards.groupName.trim() === groupName
             })
             return flashCards ? flashCards : []
 
